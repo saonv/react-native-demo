@@ -1,3 +1,4 @@
 rootProject.name = 'SigmaDemo'
 apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':lib-core', ':lib-dash', ':lib-hls', ':lib-smoothstreaming', ':lib-ui', ':extension-okhttp'
 include ':app'
